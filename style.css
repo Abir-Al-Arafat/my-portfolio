@@ -115,7 +115,10 @@ html {
 .landing {
   width: 100%;
   height: 100vh;
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-bg-heading {
@@ -132,9 +135,9 @@ html {
 }
 
 .logo {
-  position: absolute;
+  /* position: absolute;
   top: 4rem;
-  left: 5rem;
+  left: 5rem; */
   font-size: 3rem;
 }
 
@@ -150,10 +153,10 @@ html {
 }
 
 .banner {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   display: flex;
 }
 
@@ -277,14 +280,14 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -10;
   transform: scale(0);
   transition: transform 0.3s;
 }
 
 .btn:hover::before {
   transform: scale(1);
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 }
 
 .cv-btn::after {
@@ -555,7 +558,7 @@ html {
 .projects {
   width: 100%;
   height: 100%;
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -665,25 +668,26 @@ html {
 /* contact */
 .contact {
   width: 100%;
-  height: 100vh;
-  position: relative;
+  /* height: 100vh; */
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* overflow: scroll; */
 }
 
-.contact .section-border {
+/* .contact .section-border {
   position: absolute;
   left: 20rem;
   top: 30%;
-}
+} */
 
 .contact-content {
   width: 120rem;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   margin-top: 7rem;
   display: flex;
   justify-content: space-between;
@@ -691,6 +695,7 @@ html {
 }
 
 .contact-left div {
+  overflow: hidden;
   display: flex;
   align-items: center;
   margin: 3rem 0;
@@ -708,10 +713,10 @@ html {
   font-size: 2rem;
   color: #eee;
   margin-right: 9rem;
-  position: relative;
+  /* position: relative; */
 }
 
-.contact-left i::after {
+/* .contact-left i::after {
   content: "";
   position: absolute;
   background-color: #bbb;
@@ -720,7 +725,7 @@ html {
   top: 50%;
   transform: translateY(-50%);
   right: -4rem;
-}
+} */
 
 .contact-info {
   width: 20rem;
@@ -816,6 +821,7 @@ textarea {
 
 /* foooter */
 .footer {
+  margin-top: 10rem;
   width: 100%;
   height: 10rem;
   border-top: 0.1rem solid #444;
@@ -1047,6 +1053,15 @@ textarea {
   }
 
   .icons {
+    display: none;
+  }
+}
+
+@media (max-height: 912px) {
+  .section-border {
+    display: none;
+  }
+  .section-bg-heading {
     display: none;
   }
 }
