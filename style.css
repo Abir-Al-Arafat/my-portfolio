@@ -301,6 +301,10 @@ html {
   transform: translateY(-50%);
 }
 
+.cv-btn {
+  z-index: 1;
+}
+
 .cv span {
   font-size: 1.4rem;
   font-weight: 300;
