@@ -18,6 +18,7 @@ html {
   width: 100%;
   height: 100%;
   background: linear-gradient(#232932, #2c3138, #232932);
+  overflow-x: hidden;
 }
 
 /* Navigation */
@@ -115,7 +116,7 @@ html {
 .landing {
   width: 100%;
   height: 100vh;
-  /* position: relative; */
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,6 +133,7 @@ html {
   text-align: center;
   color: #31363d;
   opacity: 0.5;
+  /* transform: rotate(10deg); */
 }
 
 .logo {
@@ -158,6 +160,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%); */
   display: flex;
+  z-index: 1;
 }
 
 .section-border {
@@ -562,7 +565,7 @@ html {
 .projects {
   width: 100%;
   height: 100%;
-  /* position: relative; */
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1065,7 +1068,7 @@ textarea {
   .section-border {
     display: none;
   }
-  .section-bg-heading {
+  /* .section-bg-heading {
     display: none;
-  }
+  } */
 }
