@@ -542,46 +542,50 @@
               <i class="fa-regular fa-envelope"></i>
               <div class="contact-info">
                 <span>Email</span>
-                <span>jon@email.com</span>
+                <span>arafatabir181@gmail.com</span>
               </div>
             </div>
-            <div class="phone">
+            <!-- <div class="phone">
               <i class="fa-solid fa-phone"></i>
               <div class="contact-info">
                 <span>Phone</span>
                 <span>+880-1777777777</span>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="contact-right">
-            <form>
+            <form
+              action="https://formsubmit.co/arafatabir181@gmail.com"
+              method="POST"
+              target="_blank"
+            >
               <div class="input-groups">
                 <div class="input-group">
                   <label for="name"
                     >Full Name <i class="fa-solid fa-asterisk"></i
                   ></label>
-                  <input class="input" type="text" />
+                  <input class="input" type="text" name="name" required />
                 </div>
                 <div class="input-group">
                   <label for="email"
                     >Email <i class="fa-solid fa-asterisk"></i
                   ></label>
-                  <input class="input" type="email" />
+                  <input class="input" type="email" name="email" required />
                 </div>
               </div>
               <div class="input-group">
                 <label for="subject"
                   >Subject <i class="fa-solid fa-asterisk"></i
                 ></label>
-                <input class="input" type="text" />
+                <input class="input" type="text" name="subject" required />
               </div>
               <div class="input-group">
                 <label for="message"
                   >Message <i class="fa-solid fa-asterisk"></i
                 ></label>
-                <textarea class="input"> </textarea>
+                <textarea class="input" name="message" required> </textarea>
               </div>
-              <button type="button" class="contact-btn">Send Message</button>
+              <button type="submit" class="contact-btn">Send Message</button>
             </form>
           </div>
         </div>
