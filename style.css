@@ -108,6 +108,7 @@ html {
   transition: color 0.5s;
 }
 
+.nav-items a.active,
 .nav-items a:hover {
   color: #29a587;
 }
