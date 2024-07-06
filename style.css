@@ -259,6 +259,14 @@ html {
   margin-right: 2rem;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-media i:hover,
+.social-media span:hover {
+  color: #29a587;
+  transform: scale(1.1);
+  /* text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3); */
 }
 
 .iconify {
@@ -270,6 +278,12 @@ html {
 .social-icon {
   font-size: 2rem;
   color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #29a587;
+  transform: scale(1.1);
 }
 
 .btn {
@@ -926,6 +940,12 @@ textarea {
   margin-right: 2rem;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons i:hover {
+  color: #29a587;
+  transform: scale(1.1);
 }
 
 .copyright,
