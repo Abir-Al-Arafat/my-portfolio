@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#232932, #2c3138, #232932);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: "Rowdies", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+.thank-you-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-container h1 {
+  color: #29a587;
+  margin-bottom: 1rem;
+}
+
+.thank-you-container p {
+  color: #333;
+  font-size: 2.2rem;
+}
+
+.link-porfolio {
+  text-decoration: none;
+  color: #29a587;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+}
