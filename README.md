@@ -1,2 +1,3 @@
 # my-portfolio
-my css only portfolio
+
+Portfolio in CSS and JavaScript only
