@@ -238,6 +238,81 @@ html {
   font-weight: bold;
   text-transform: capitalize;
   margin-left: 1.2rem;
+  position: relative;
+}
+
+/* text animation */
+.prof span::before {
+  content: "Aspiring Web Developer";
+  color: #fff;
+  animation: words 20s infinite;
+}
+
+.prof span::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  /* background-color: #2f3542; */
+  background-color: #252931;
+  border-left: 2px solid #fff;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: "Aspiring Web Developer";
+  }
+  21%,
+  40% {
+    content: "Frontend";
+  }
+  41%,
+  60% {
+    content: "Backend";
+  }
+  61%,
+  80% {
+    content: "Problem Solver";
+  }
+  81%,
+  100% {
+    content: "CSE Graduate";
+  }
+}
+
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
 }
 
 .about {
