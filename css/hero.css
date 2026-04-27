@@ -1,0 +1,89 @@
+.hero {
+  padding-top: clamp(4rem, 5vw, 8rem);
+}
+
+.hero__content {
+  display: grid;
+  gap: var(--space-7);
+  align-items: center;
+}
+
+.hero__kicker {
+  color: var(--accent-500);
+  text-transform: uppercase;
+  letter-spacing: 0.18rem;
+  font-size: 1.3rem;
+  margin-bottom: var(--space-3);
+}
+
+.hero__title {
+  font-size: clamp(3.2rem, 9vw, 7rem);
+  line-height: 1.05;
+  margin-bottom: var(--space-4);
+}
+
+.hero__title span {
+  color: var(--accent-500);
+}
+
+.hero__role {
+  color: var(--text-300);
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  font-size: 1.4rem;
+  margin-bottom: var(--space-4);
+}
+
+.hero__summary {
+  max-width: 60ch;
+  color: var(--text-300);
+  font-size: clamp(1.7rem, 2vw, 2rem);
+  font-family: var(--font-accent);
+}
+
+.hero__actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-top: var(--space-6);
+}
+
+.hero__social {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.hero__social a {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  border: 1px solid var(--border-soft);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  color: var(--text-100);
+  transition: 0.2s ease;
+}
+
+.hero__social a:hover {
+  color: var(--accent-500);
+  border-color: var(--accent-500);
+  transform: translateY(-2px);
+}
+
+.hero__image-wrap {
+  max-width: 48rem;
+  margin-inline: auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-700), var(--accent-500));
+  padding: 1.2rem;
+  box-shadow: var(--shadow-lg);
+}
+
+.hero__image {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
