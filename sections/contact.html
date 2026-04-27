@@ -1,0 +1,67 @@
+<section
+  class="contact section reveal"
+  id="contact"
+  aria-labelledby="contact-title"
+>
+  <div class="container contact__content">
+    <div class="contact__details">
+      <header class="section__header section__header--left">
+        <p class="section__eyebrow">Get In Touch</p>
+        <h2 class="section__title" id="contact-title">Contact</h2>
+      </header>
+
+      <ul class="contact__list" aria-label="Contact details">
+        <li>
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          <span>Dhaka, Bangladesh</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-user" aria-hidden="true"></i>
+          <span>Freelance: Available</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+          <span>arafatabir181@gmail.com</span>
+        </li>
+      </ul>
+    </div>
+
+    <form
+      class="contact__form"
+      action="https://formsubmit.co/arafatabir181@gmail.com"
+      method="POST"
+      target="_blank"
+    >
+      <div class="form__grid">
+        <label>
+          Full Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+      </div>
+
+      <label>
+        Subject
+        <input type="text" name="subject" required />
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+
+      <input
+        type="hidden"
+        name="_next"
+        value="https://abir-arafat.vercel.app/thanks.html"
+      />
+
+      <button class="btn btn--primary contact__submit" type="submit">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
