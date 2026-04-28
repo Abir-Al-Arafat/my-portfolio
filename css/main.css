@@ -1,0 +1,152 @@
+@import url("./variables.css");
+@import url("./navbar.css");
+@import url("./hero.css");
+@import url("./skills.css");
+@import url("./projects.css");
+@import url("./contact.css");
+@import url("./footer.css");
+@import url("./responsive.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-heading);
+  line-height: 1.55;
+  color: var(--text-100);
+  background:
+    radial-gradient(
+      circle at 15% 10%,
+      rgba(41, 165, 135, 0.18),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      rgba(94, 117, 255, 0.08),
+      transparent 40%
+    ),
+    linear-gradient(180deg, var(--bg-700), var(--bg-800), var(--bg-900));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+main {
+  display: block;
+}
+
+.container {
+  width: min(var(--max-content), calc(100% - 3.2rem));
+  margin-inline: auto;
+}
+
+.section {
+  padding: clamp(5.6rem, 6vw, 10rem) 0;
+}
+
+.section__header {
+  text-align: center;
+  margin-bottom: var(--space-7);
+}
+
+.section__header--left {
+  text-align: left;
+}
+
+.section__eyebrow {
+  color: var(--accent-500);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.24rem;
+  margin-bottom: var(--space-3);
+}
+
+.section__title {
+  font-size: clamp(3rem, 5vw, 4.8rem);
+  font-weight: 400;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4.6rem;
+  padding: 0 var(--space-5);
+  font-size: 1.4rem;
+  letter-spacing: 0.04rem;
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background: var(--accent-500);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  transform: translateY(-1px);
+  background: var(--accent-400);
+}
+
+.btn--ghost {
+  border-color: var(--border-soft);
+  color: var(--text-100);
+  background: transparent;
+}
+
+.btn--ghost:hover {
+  border-color: var(--accent-500);
+  color: var(--accent-500);
+}
+
+.loading-state {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-size: 1.8rem;
+  color: var(--text-300);
+}
+
+.loading-state--error {
+  color: #ff8f8f;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.noscript-text {
+  text-align: center;
+  color: var(--text-300);
+  font-size: 1.6rem;
+  margin: 0 0 3rem;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
