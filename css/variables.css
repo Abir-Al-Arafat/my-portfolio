@@ -1,0 +1,42 @@
+:root {
+  --font-heading: "Rowdies", sans-serif;
+  --font-accent: "Caveat", cursive;
+
+  --bg-900: #171b20;
+  --bg-800: #1f252d;
+  --bg-700: #262d36;
+  --surface: #11161d;
+
+  --text-100: #f8fbff;
+  --text-300: #ccd3dd;
+  --text-500: #8f9aa8;
+
+  --accent-500: #29a587;
+  --accent-400: #33ba99;
+  --accent-700: #20846c;
+
+  --border-soft: #313c49;
+  --shadow-lg: 0 18px 40px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 10px 26px rgba(0, 0, 0, 0.28);
+
+  --radius-sm: 0.8rem;
+  --radius-md: 1.2rem;
+  --radius-lg: 1.8rem;
+  --radius-pill: 999px;
+
+  --space-1: 0.4rem;
+  --space-2: 0.8rem;
+  --space-3: 1.2rem;
+  --space-4: 1.6rem;
+  --space-5: 2.4rem;
+  --space-6: 3.2rem;
+  --space-7: 4.8rem;
+  --space-8: 6.4rem;
+
+  --max-content: 120rem;
+
+  --bp-sm: 36rem;
+  --bp-md: 48rem;
+  --bp-lg: 64rem;
+  --bp-xl: 80rem;
+}
