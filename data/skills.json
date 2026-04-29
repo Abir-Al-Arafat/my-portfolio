@@ -1,0 +1,82 @@
+[
+  {
+    "name": "HTML",
+    "icon": "assets/icons/skills/html.svg",
+    "alt": "HTML logo"
+  },
+  {
+    "name": "CSS",
+    "icon": "https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png",
+    "alt": "CSS logo"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png",
+    "alt": "JavaScript logo"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "assets/icons/skills/typescript.svg",
+    "alt": "TypeScript logo"
+  },
+  {
+    "name": "React",
+    "icon": "https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png",
+    "alt": "React logo"
+  },
+  {
+    "name": "Next.js",
+    "icon": "assets/icons/skills/nextjs900.svg",
+    "alt": "Next.js logo"
+  },
+  {
+    "name": "Node.js",
+    "icon": "assets/icons/skills/nodejs/node-js-icon.svg",
+    "alt": "Node.js logo"
+  },
+  {
+    "name": "Express.js",
+    "icon": "assets/icons/skills/Express-js.png",
+    "alt": "Express.js logo"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "assets/icons/skills/mongodb-svgrepo-com.svg",
+    "alt": "MongoDB logo"
+  },
+  {
+    "name": "SASS",
+    "icon": "assets/icons/skills/sass.svg",
+    "alt": "SASS logo"
+  },
+  {
+    "name": "Tailwind CSS",
+    "icon": "assets/icons/skills/icons8-tailwind-css.svg",
+    "alt": "Tailwind CSS logo"
+  },
+  {
+    "name": "SQL",
+    "icon": "assets/icons/skills/sql-database-generic-svgrepo-com.svg",
+    "alt": "SQL database icon"
+  },
+  {
+    "name": "Python",
+    "icon": "assets/icons/skills/python.svg",
+    "alt": "Python logo"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "assets/icons/skills/icons8-bootstrap.svg",
+    "alt": "Bootstrap logo"
+  },
+  {
+    "name": "Prisma",
+    "icon": "assets/icons/skills/prisma.svg",
+    "alt": "Prisma logo"
+  },
+  {
+    "name": "Git",
+    "icon": "assets/icons/skills/git.svg",
+    "alt": "Git logo"
+  }
+]
