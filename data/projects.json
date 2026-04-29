@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SnapCart",
+    "image": "assets/images/projects/snapcart.PNG",
+    "alt": "Screenshot of SnapCart e-commerce app",
+    "stack": ["MERN", "Bootstrap", "RTK", "RTK Query"],
+    "description": "E-commerce platform featuring authentication, role-based authorization, product reviews, ratings, pagination, and PayPal checkout.",
+    "repo": "https://github.com/Abir-Al-Arafat/SnapCart-MERN"
+  },
+  {
+    "name": "Bookworm",
+    "image": "assets/images/projects/bookstore.PNG",
+    "alt": "Screenshot of Bookworm online bookstore",
+    "stack": ["MERN", "SCSS", "RTK"],
+    "description": "Online bookstore with advanced search, sorting, filtering, pagination, secure authentication, and shopping cart workflow.",
+    "repo": "https://github.com/Abir-Al-Arafat/bookworm-mern"
+  },
+  {
+    "name": "Gamestore",
+    "image": "assets/images/projects/gamestore.PNG",
+    "alt": "Screenshot of Gamestore web app",
+    "stack": ["React", "TypeScript", "React Query", "Zustand"],
+    "description": "Game discovery app powered by RAWG API with search, category filters, sorting, and infinite scrolling.",
+    "repo": "https://github.com/Abir-Al-Arafat/game-store-ReactJS"
+  },
+  {
+    "name": "Issue Finder",
+    "image": "assets/images/projects/issuefinder.PNG",
+    "alt": "Screenshot of Issue Finder dashboard",
+    "stack": ["Next.js", "TypeScript", "Tailwind", "Prisma", "MySQL"],
+    "description": "Task management platform with dashboard analytics, assignment workflows, filtering, and access-controlled user actions.",
+    "repo": "https://github.com/Abir-Al-Arafat/issue-finder-nextjs"
+  },
+  {
+    "name": "Coursemania",
+    "image": "assets/images/projects/coursemania.PNG",
+    "alt": "Screenshot of Coursemania app",
+    "stack": ["MERN", "TypeScript", "Tailwind", "RTK"],
+    "description": "Course platform with catalog filtering, wishlist, cart, user authentication, and rating system.",
+    "repo": "https://github.com/Abir-Al-Arafat/coursemania-mern"
+  },
+  {
+    "name": "NewsFlex",
+    "image": "assets/images/projects/newsflex.PNG",
+    "alt": "Screenshot of NewsFlex website",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "description": "News explorer using News API with category navigation, keyword search, and serverless proxy handling.",
+    "repo": "https://github.com/Abir-Al-Arafat/Simple-Projects-in-HTML-CSS-JavaScript/tree/main/News%20App"
+  }
+]
